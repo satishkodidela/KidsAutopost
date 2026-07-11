@@ -40,7 +40,7 @@ def make_scene(spec, series, workdir: Path, budget, backend: str = "veo") -> Pat
     clips_dir = workdir / "clips"
     clips_dir.mkdir(parents=True, exist_ok=True)
     client = veo.make_client() if backend == "veo" else None
-    refs = veo.load_reference_images(series.all_sheets()) if backend == "veo" else None
+    refs = veo.load_reference_images(series.reference_sheets()) if backend == "veo" else None
 
     clip_paths = []
     last_frame = None

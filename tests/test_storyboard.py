@@ -56,3 +56,13 @@ def test_scene_spec_serializes():
     spec = storyboard.plan_scenes(topic, lyr, series)[0]
     d = spec.to_dict()
     assert d["index"] == 0 and len(d["clip_prompts"]) == config.CLIPS_PER_SCENE
+
+
+def test_reference_sheets_capped_and_balanced():
+    from pathlib import Path
+    _, _, series = fixtures()
+    series.characters[0].sheets = [Path("pip-front.png"), Path("pip-3q.png")]
+    series.characters[1].sheets = [Path("lulu-front.png"), Path("lulu-3q.png")]
+    refs = series.reference_sheets()
+    assert len(refs) == 3
+    assert refs[0].name == "pip-front.png" and refs[1].name == "lulu-front.png"

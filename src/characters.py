@@ -31,6 +31,14 @@ class Series:
     def all_sheets(self) -> list:
         return [p for c in self.characters for p in c.sheets]
 
+    def reference_sheets(self, limit: int = 3) -> list:
+        """Round-robin across characters (front views first) so every character
+        stays represented — Veo rejects more than 3 reference images."""
+        ordered = []
+        for i in range(max((len(c.sheets) for c in self.characters), default=0)):
+            ordered += [c.sheets[i] for c in self.characters if i < len(c.sheets)]
+        return ordered[:limit]
+
 
 def load_series(series_id: str) -> Series:
     registry = json.loads(config.SERIES_PATH.read_text())
