@@ -63,12 +63,14 @@ def generate_clip(client, prompt: str, negative: str, out_path, duration_s: int,
         raise ValueError("reference_images and first_frame are mutually exclusive")
 
     for resolution in (_RESOLUTION, "720p"):
+        # negative_prompt config is rejected when combined with reference
+        # images ("not supported in your use case") — the avoid-list already
+        # rides in the prompt text, which is the approach proven in production.
         config_obj = types.GenerateVideosConfig(
             aspect_ratio=aspect,
             resolution=resolution,
             duration_seconds=duration_s,
             number_of_videos=1,
-            negative_prompt=negative,
         )
         if reference_images:
             config_obj.reference_images = reference_images
