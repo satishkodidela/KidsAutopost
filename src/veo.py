@@ -106,13 +106,27 @@ def _start_with_backoff(client, kwargs, attempts: int = 5):
             time.sleep(70)
 
 
-def _wait_and_save(client, operation, path, timeout_s: int = 1200) -> None:
+def _transient(exc: Exception) -> bool:
+    msg = str(exc)
+    return ("429" in msg or "RESOURCE_EXHAUSTED" in msg
+            or "500" in msg or "503" in msg or "UNAVAILABLE" in msg)
+
+
+def _wait_and_save(client, operation, path, timeout_s: int = 1800) -> None:
+    """Poll to completion, tolerating rate-limited/transient polls — a 429 on a
+    status check must never kill a render that's already paid for."""
     deadline = time.time() + timeout_s
     while not operation.done:
         if time.time() > deadline:
             raise RuntimeError(f"Veo generation timed out after {timeout_s}s")
         time.sleep(10)
-        operation = client.operations.get(operation)
+        try:
+            operation = client.operations.get(operation)
+        except Exception as exc:
+            if not _transient(exc):
+                raise
+            print("  Veo poll rate-limited; waiting 60s", flush=True)
+            time.sleep(60)
     if operation.error:
         raise RuntimeError(f"Veo generation failed: {operation.error}")
     result = operation.result
@@ -121,5 +135,13 @@ def _wait_and_save(client, operation, path, timeout_s: int = 1200) -> None:
         reasons = getattr(result, "rai_media_filtered_reasons", None)
         raise FilteredError(f"Veo returned no video (filtered: {reasons})")
     video = videos[0].video
-    client.files.download(file=video)
-    video.save(str(path))
+    for attempt in range(4):
+        try:
+            client.files.download(file=video)
+            video.save(str(path))
+            return
+        except Exception as exc:
+            if not _transient(exc) or attempt == 3:
+                raise
+            print("  Veo download rate-limited; waiting 60s", flush=True)
+            time.sleep(60)
