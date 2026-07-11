@@ -1,0 +1,22 @@
+{
+  "series": [
+    {
+      "id": "pip-and-lulu",
+      "name": "Pip & Lulu",
+      "style_block": "Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world.",
+      "music_style": "playful ukulele and glockenspiel with soft hand claps",
+      "characters": [
+        {
+          "name": "Pip",
+          "description": "a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf",
+          "sheet_files": ["pip-front.png", "pip-three-quarter.png"]
+        },
+        {
+          "name": "Lulu",
+          "description": "a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow",
+          "sheet_files": ["lulu-front.png", "lulu-three-quarter.png"]
+        }
+      ]
+    }
+  ]
+}

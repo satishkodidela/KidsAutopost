@@ -1,0 +1,66 @@
+# Phase 1: dispatch-only. Phase 2 adds the cron schedule (3x/week) and the
+# environment-gated publish job for IG/FB + the YouTube public flip.
+name: Generate kids video
+
+on:
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: "colors | numbers (blank = random)"
+        default: ""
+      backend:
+        description: "veo | seedance (blank = repo var)"
+        default: ""
+      max_usd:
+        description: "per-run budget override"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    outputs:
+      video_id: ${{ steps.gen.outputs.video_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Generate video
+        id: gen
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
+          THEME: ${{ inputs.theme }}
+          VIDEO_BACKEND: ${{ inputs.backend || vars.VIDEO_BACKEND }}
+          MAX_USD_PER_RUN: ${{ inputs.max_usd || vars.MAX_USD_PER_RUN }}
+          MAX_USD_PER_MONTH: ${{ vars.MAX_USD_PER_MONTH }}
+          SERIES_ID: ${{ vars.SERIES_ID }}
+          CHANNEL_HANDLE: ${{ vars.CHANNEL_HANDLE }}
+        run: python -u src/pipeline.py
+      - name: Commit staged video
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add videos/ data/ queue/
+          git commit -m "Stage ${{ steps.gen.outputs.video_id }}"
+          git push
+      - name: Upload to YouTube (private)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python -u src/publish_youtube.py --stage videos/${{ steps.gen.outputs.video_id }}
+      - name: Commit YouTube id
+        run: |
+          git add videos/
+          git commit -m "Private upload ${{ steps.gen.outputs.video_id }}" && git push || true

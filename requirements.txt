@@ -1,0 +1,8 @@
+requests>=2.31
+Pillow>=10.1
+imageio-ffmpeg>=0.4.9
+google-genai>=1.16
+elevenlabs>=2.5
+google-api-python-client>=2.130
+google-auth-oauthlib>=1.2
+pytest>=8

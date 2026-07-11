@@ -1,0 +1,33 @@
+{
+  "theme": "numbers",
+  "concepts": [
+    {
+      "slug": "count-three-apples",
+      "title_hint": "One, Two, Three Apples",
+      "concept": "Counting 1-2-3 with exactly three red apples picked from a little tree",
+      "focus": "counting one, two, three — exactly three apples must be visible",
+      "props": ["a small apple tree", "exactly three red apples", "a woven basket"]
+    },
+    {
+      "slug": "five-little-fish",
+      "title_hint": "Five Little Fish",
+      "concept": "Counting to five with five colorful little fish swimming in a clear pond",
+      "focus": "counting to five — exactly five fish must be visible",
+      "props": ["exactly five colorful fish", "a clear sparkling pond", "round lily pads"]
+    },
+    {
+      "slug": "two-dancing-shoes",
+      "title_hint": "Two Dancing Shoes",
+      "concept": "Learning the number two with a pair of dancing shoes — two ears, two hands, two feet",
+      "focus": "the number two and pairs",
+      "props": ["a pair of tiny dancing shoes", "two drums", "two maracas"]
+    },
+    {
+      "slug": "count-four-blocks",
+      "title_hint": "Four Big Blocks",
+      "concept": "Counting to four while stacking exactly four soft colorful blocks into a tower",
+      "focus": "counting to four — exactly four blocks must be visible",
+      "props": ["exactly four soft colorful stacking blocks", "a cozy playroom rug"]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "theme": "colors",
+  "concepts": [
+    {
+      "slug": "red-balloon",
+      "title_hint": "The Big Red Balloon",
+      "concept": "Learning the color RED with a big shiny red balloon in a sunny meadow",
+      "focus": "the color red",
+      "props": ["a big shiny red balloon", "red apples in a basket", "a tiny red ladybug"]
+    },
+    {
+      "slug": "yellow-sunshine",
+      "title_hint": "Hello Yellow Sunshine",
+      "concept": "Learning the color YELLOW with the morning sun, sunflowers, and a yellow ducky",
+      "focus": "the color yellow",
+      "props": ["a smiling morning sun", "tall sunflowers", "a soft yellow rubber ducky"]
+    },
+    {
+      "slug": "blue-sky-kite",
+      "title_hint": "The Little Blue Kite",
+      "concept": "Learning the color BLUE by flying a little blue kite under a big blue sky",
+      "focus": "the color blue",
+      "props": ["a little blue kite with a bow tail", "fluffy white clouds", "bluebirds"]
+    },
+    {
+      "slug": "green-garden",
+      "title_hint": "The Green Green Garden",
+      "concept": "Learning the color GREEN while watering plants in a little garden",
+      "focus": "the color green",
+      "props": ["green leaves", "a small green watering can", "a friendly green turtle"]
+    },
+    {
+      "slug": "orange-pumpkin",
+      "title_hint": "The Round Orange Pumpkin",
+      "concept": "Learning the color ORANGE with a round pumpkin and juicy oranges at a farm stand",
+      "focus": "the color orange",
+      "props": ["a round orange pumpkin", "a bowl of oranges", "an orange butterfly"]
+    },
+    {
+      "slug": "rainbow-parade",
+      "title_hint": "The Rainbow Parade",
+      "concept": "Reviewing all the colors with a gentle rainbow parade of balloons",
+      "focus": "all the rainbow colors",
+      "props": ["a rainbow arching over a hill", "balloons in every color", "colorful flags"]
+    }
+  ]
+}
