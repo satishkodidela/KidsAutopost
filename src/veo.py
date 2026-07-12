@@ -84,7 +84,7 @@ def generate_clip(client, prompt: str, negative: str, out_path, duration_s: int,
             return
         except Exception as exc:
             msg = str(exc).lower()
-            if resolution != "720p" and "resolution" in msg:
+            if resolution != "720p" and ("resolution" in msg or "1080p" in msg):
                 print(f"  Veo rejected {resolution}, falling back to 720p", flush=True)
                 _RESOLUTION = "720p"
                 continue
