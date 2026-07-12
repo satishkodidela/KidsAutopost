@@ -1,0 +1,166 @@
+{
+  "video_id": "2026-07-12-colors-rainbow-parade",
+  "created_utc": "2026-07-12T07:09:18.653637+00:00",
+  "topic": {
+    "theme": "colors",
+    "slug": "rainbow-parade",
+    "title_hint": "The Rainbow Parade",
+    "concept": "Reviewing all the colors with a gentle rainbow parade of balloons",
+    "focus": "all the rainbow colors",
+    "props": [
+      "a rainbow arching over a hill",
+      "balloons in every color",
+      "colorful flags"
+    ],
+    "source": "bank",
+    "queue_file": ""
+  },
+  "title": "Pip & Lulu's Rainbow Balloon Parade! Learn All the Colors!",
+  "description": "Join Pip the panda and Lulu the bunny for a wonderful rainbow balloon parade! Let's learn and sing about all the beautiful colors of the rainbow together. It's a happy, colorful adventure!",
+  "tags": [
+    "preschool",
+    "toddlers",
+    "kids",
+    "animation",
+    "colors",
+    "rainbow",
+    "balloons",
+    "Pip and Lulu",
+    "learn colors",
+    "childrens music",
+    "educational",
+    "song for kids"
+  ],
+  "lyrics_sections": [
+    {
+      "name": "Rainbow Balloons Intro",
+      "lines": [
+        "Oh, look! What do you see?",
+        "Balloons, balloons, for you and me!",
+        "Red balloon, happy red!",
+        "Yellow balloon, over head!"
+      ],
+      "visual_theme": "Pip and Lulu skip hand-in-paw under the big rainbow arch, each holding a red balloon and looking up at more yellow balloons floating gently around them."
+    },
+    {
+      "name": "More Rainbow Colors",
+      "lines": [
+        "Green balloon, soft and round!",
+        "Purple balloon, off the ground!",
+        "Orange balloon, shining bright!",
+        "So many colors, what a sight!"
+      ],
+      "visual_theme": "Pip and Lulu giggle as they wave colorful flags on the hill, while a parade of green, purple, and orange balloons floats past them towards the rainbow."
+    }
+  ],
+  "series": "pip-and-lulu",
+  "backend": "veo",
+  "format": "song",
+  "status": "staged",
+  "scenes": [
+    {
+      "index": 0,
+      "name": "Rainbow Balloons Intro",
+      "duration_s": 24,
+      "lines": [
+        "Oh, look! What do you see?",
+        "Balloons, balloons, for you and me!",
+        "Red balloon, happy red!",
+        "Yellow balloon, over head!"
+      ],
+      "clip_prompts": [
+        "Wide establishing shot. [00:00-00:04] Pip waves hello and smiles at the camera. [00:04-00:08] The friends look at pip and Lulu skip hand-in-paw under the big rainbow arch, each holding a red balloon and looking up at more yellow balloons floating gently around them. Make the learning subject unmistakably clear: all the rainbow colors. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Medium shot on the action. [00:00-00:04] Pip and Lulu skip hand-in-paw under the big rainbow arch, each holding a red balloon and looking up at more yellow balloons floating gently around them. [00:04-00:08] The characters clap and bounce gently in rhythm, delighted. Make the learning subject unmistakably clear: all the rainbow colors. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Playful closing shot. [00:00-00:04] The friends dance a simple gentle dance together. [00:04-00:08] They cheer softly and strike a happy pose, ready to sing again. Make the learning subject unmistakably clear: all the rainbow colors. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark."
+      ],
+      "negative": "darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark"
+    },
+    {
+      "index": 1,
+      "name": "More Rainbow Colors",
+      "duration_s": 24,
+      "lines": [
+        "Green balloon, soft and round!",
+        "Purple balloon, off the ground!",
+        "Orange balloon, shining bright!",
+        "So many colors, what a sight!"
+      ],
+      "clip_prompts": [
+        "Wide establishing shot. [00:00-00:04] Pip waves hello and smiles at the camera. [00:04-00:08] The friends look at pip and Lulu giggle as they wave colorful flags on the hill, while a parade of green, purple, and orange balloons floats past them towards the rainbow. Make the learning subject unmistakably clear: all the rainbow colors. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Medium shot on the action. [00:00-00:04] Pip and Lulu giggle as they wave colorful flags on the hill, while a parade of green, purple, and orange balloons floats past them towards the rainbow. [00:04-00:08] The characters clap and bounce gently in rhythm, delighted. Make the learning subject unmistakably clear: all the rainbow colors. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Playful closing shot. [00:00-00:04] The friends dance a simple gentle dance together. [00:04-00:08] They cheer softly and strike a happy pose, ready to sing again. Make the learning subject unmistakably clear: all the rainbow colors. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark."
+      ],
+      "negative": "darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark"
+    }
+  ],
+  "composition_plan": {
+    "positive_global_styles": [
+      "children's song",
+      "cheerful",
+      "simple catchy melody",
+      "warm female vocals",
+      "playful ukulele and glockenspiel with soft hand claps"
+    ],
+    "negative_global_styles": [
+      "aggressive",
+      "distorted",
+      "minor key",
+      "heavy drums",
+      "sad",
+      "spooky"
+    ],
+    "sections": [
+      {
+        "section_name": "Rainbow Balloons Intro",
+        "duration_ms": 24000,
+        "lines": [
+          "Oh, look! What do you see?",
+          "Balloons, balloons, for you and me!",
+          "Red balloon, happy red!",
+          "Yellow balloon, over head!"
+        ],
+        "positive_local_styles": [
+          "bright",
+          "playful"
+        ],
+        "negative_local_styles": []
+      },
+      {
+        "section_name": "More Rainbow Colors",
+        "duration_ms": 24000,
+        "lines": [
+          "Green balloon, soft and round!",
+          "Purple balloon, off the ground!",
+          "Orange balloon, shining bright!",
+          "So many colors, what a sight!"
+        ],
+        "positive_local_styles": [
+          "warm",
+          "singalong"
+        ],
+        "negative_local_styles": []
+      },
+      {
+        "section_name": "outro",
+        "duration_ms": 4000,
+        "lines": [],
+        "positive_local_styles": [
+          "gentle instrumental fade"
+        ],
+        "negative_local_styles": []
+      }
+    ]
+  },
+  "song_duration_s": 52.06,
+  "cost_usd": 7.2,
+  "qc": {
+    "ok": true,
+    "checks": {
+      "duration_s": 52.04,
+      "height_px": 1920,
+      "has_audio": true,
+      "black_spans": []
+    },
+    "issues": []
+  }
+}

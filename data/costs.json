@@ -1,6 +1,6 @@
 {
   "months": {
-    "2026-07": 1.2
+    "2026-07": 8.4
   },
   "entries": [
     {
@@ -9,6 +9,48 @@
       "seconds": 8,
       "usd": 1.2,
       "note": "scene0 clip1 attempt1"
+    },
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene0 clip1 attempt1"
+    },
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene0 clip2 attempt1"
+    },
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene0 clip3 attempt1"
+    },
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene1 clip1 attempt1"
+    },
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene1 clip2 attempt1"
+    },
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene1 clip3 attempt1"
     }
   ]
 }
