@@ -56,7 +56,7 @@
   "series": "pip-and-lulu",
   "backend": "veo",
   "format": "song",
-  "status": "staged",
+  "status": "uploaded_private",
   "scenes": [
     {
       "index": 0,
@@ -162,5 +162,7 @@
       "black_spans": []
     },
     "issues": []
-  }
+  },
+  "yt_video_id": "WOdQSCBDCv0",
+  "yt_url": "https://youtube.com/watch?v=WOdQSCBDCv0"
 }
