@@ -1,0 +1,155 @@
+{
+  "video_id": "2026-07-12-numbers-count-three-apples",
+  "created_utc": "2026-07-12T04:07:49.694259+00:00",
+  "topic": {
+    "theme": "numbers",
+    "slug": "count-three-apples",
+    "title_hint": "One, Two, Three Apples",
+    "concept": "Counting 1-2-3 with exactly three red apples picked from a little tree",
+    "focus": "counting one, two, three \u2014 exactly three apples must be visible",
+    "props": [
+      "a small apple tree",
+      "exactly three red apples",
+      "a woven basket"
+    ],
+    "source": "bank",
+    "queue_file": ""
+  },
+  "title": "Counting Red Apples with Pip & Lulu! 1, 2, 3 Fun!",
+  "description": "Pip and Lulu are having a super fun day counting! Watch them pick yummy red apples from a little tree. Let's count together: one, two, three! It's a joyful way to learn numbers.",
+  "tags": [
+    "Counting",
+    "Numbers",
+    "123",
+    "Apples",
+    "Preschool",
+    "Toddler",
+    "Kids Songs",
+    "Animation",
+    "Pip and Lulu",
+    "Learning",
+    "Early Math",
+    "Fun"
+  ],
+  "lyrics_sections": [
+    {
+      "name": "Apple Tree Fun",
+      "lines": [
+        "Red apples on the tree!",
+        "So yummy, you will see!",
+        "Pip picks one, one, one!",
+        "Counting fun has just begun!"
+      ],
+      "visual_theme": "Pip and Lulu skip happily towards the small apple tree, Pip points at the red apples, then gently picks one and places it in the woven basket."
+    },
+    {
+      "name": "Counting Apples",
+      "lines": [
+        "One, two, oh what fun!",
+        "Two apples, now we've begun!",
+        "Three apples in our basket, see!",
+        "One, two, three for you and me!"
+      ],
+      "visual_theme": "Lulu then picks the second apple, and Pip picks the third apple, both adding them to the basket, then Pip and Lulu hold the basket up, smiling at the three red apples."
+    }
+  ],
+  "series": "pip-and-lulu",
+  "backend": "veo",
+  "format": "song",
+  "status": "generating",
+  "composition_plan": {
+    "positive_global_styles": [
+      "children's song",
+      "cheerful",
+      "simple catchy melody",
+      "warm female vocals",
+      "playful ukulele and glockenspiel with soft hand claps"
+    ],
+    "negative_global_styles": [
+      "aggressive",
+      "distorted",
+      "minor key",
+      "heavy drums",
+      "sad",
+      "spooky"
+    ],
+    "sections": [
+      {
+        "section_name": "Apple Tree Fun",
+        "duration_ms": 24000,
+        "lines": [
+          "Red apples on the tree!",
+          "So yummy, you will see!",
+          "Pip picks one, one, one!",
+          "Counting fun has just begun!"
+        ],
+        "positive_local_styles": [
+          "bright",
+          "playful"
+        ],
+        "negative_local_styles": []
+      },
+      {
+        "section_name": "Counting Apples",
+        "duration_ms": 24000,
+        "lines": [
+          "One, two, oh what fun!",
+          "Two apples, now we've begun!",
+          "Three apples in our basket, see!",
+          "One, two, three for you and me!"
+        ],
+        "positive_local_styles": [
+          "warm",
+          "singalong"
+        ],
+        "negative_local_styles": []
+      },
+      {
+        "section_name": "outro",
+        "duration_ms": 4000,
+        "lines": [],
+        "positive_local_styles": [
+          "gentle instrumental fade"
+        ],
+        "negative_local_styles": []
+      }
+    ]
+  },
+  "song_duration_s": 52.06,
+  "scenes": [
+    {
+      "index": 0,
+      "name": "Apple Tree Fun",
+      "duration_s": 24,
+      "lines": [
+        "Red apples on the tree!",
+        "So yummy, you will see!",
+        "Pip picks one, one, one!",
+        "Counting fun has just begun!"
+      ],
+      "clip_prompts": [
+        "Wide establishing shot. [00:00-00:04] Pip waves hello and smiles at the camera. [00:04-00:08] The friends look at pip and Lulu skip happily towards the small apple tree, Pip points at the red apples, then gently picks one and places it in the woven basket. Make the learning subject unmistakably clear: counting one, two, three \u2014 exactly three apples must be visible. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Medium shot on the action. [00:00-00:04] Pip and Lulu skip happily towards the small apple tree, Pip points at the red apples, then gently picks one and places it in the woven basket. [00:04-00:08] The characters clap and bounce gently in rhythm, delighted. Make the learning subject unmistakably clear: counting one, two, three \u2014 exactly three apples must be visible. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Playful closing shot. [00:00-00:04] The friends dance a simple gentle dance together. [00:04-00:08] They cheer softly and strike a happy pose, ready to sing again. Make the learning subject unmistakably clear: counting one, two, three \u2014 exactly three apples must be visible. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark."
+      ],
+      "negative": "darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark"
+    },
+    {
+      "index": 1,
+      "name": "Counting Apples",
+      "duration_s": 24,
+      "lines": [
+        "One, two, oh what fun!",
+        "Two apples, now we've begun!",
+        "Three apples in our basket, see!",
+        "One, two, three for you and me!"
+      ],
+      "clip_prompts": [
+        "Wide establishing shot. [00:00-00:04] Pip waves hello and smiles at the camera. [00:04-00:08] The friends look at lulu then picks the second apple, and Pip picks the third apple, both adding them to the basket, then Pip and Lulu hold the basket up, smiling at the three red apples. Make the learning subject unmistakably clear: counting one, two, three \u2014 exactly three apples must be visible. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Medium shot on the action. [00:00-00:04] Lulu then picks the second apple, and Pip picks the third apple, both adding them to the basket, then Pip and Lulu hold the basket up, smiling at the three red apples. [00:04-00:08] The characters clap and bounce gently in rhythm, delighted. Make the learning subject unmistakably clear: counting one, two, three \u2014 exactly three apples must be visible. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark.",
+        "Playful closing shot. [00:00-00:04] The friends dance a simple gentle dance together. [00:04-00:08] They cheer softly and strike a happy pose, ready to sing again. Make the learning subject unmistakably clear: counting one, two, three \u2014 exactly three apples must be visible. Characters (keep their exact appearance consistent): Pip: a round fluffy baby panda cub with big friendly eyes, soft black-and-white fur, and a little red scarf. Lulu: a soft cream-colored baby bunny with long floppy ears, rosy cheeks, and a small yellow bow. Soft 3D cartoon animation in the style of modern preschool shows: rounded plush-like characters with big warm friendly eyes, bright pastel colors, soft even daylight, gentle slow camera moves, polished high-quality render, cozy storybook world. Soft, bright, G-rated preschool animation. Gentle slow movements, warm daylight, smiling friendly characters, calm and joyful mood throughout. Everything is safe, soft-edged, and comforting for a 2-year-old viewer. Avoid: darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark."
+      ],
+      "negative": "darkness, night, shadows, scary faces, sharp teeth, claws, weapons, fire, smoke, falling, crying, injury, chase, strangers, flashing lights, strobe, fast cuts, distorted faces, text, watermark"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "months": {
+    "2026-07": 1.2
+  },
+  "entries": [
+    {
+      "date": "2026-07-12",
+      "backend": "veo",
+      "seconds": 8,
+      "usd": 1.2,
+      "note": "scene0 clip1 attempt1"
+    }
+  ]
+}
