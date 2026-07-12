@@ -106,21 +106,23 @@ def main() -> int:
     }
     _write_meta(workdir, meta)
 
+    specs = storyboard.plan_scenes(topic, song_lyrics, series)
+    meta["scenes"] = [s.to_dict() for s in specs]
+    _write_meta(workdir, meta)
+
+    # Scenes before song: video quota is the flaky dependency, so fail on it
+    # before spending ElevenLabs credits (song timing is fixed by construction).
+    scene_paths = []
+    for spec in specs:
+        print(f"generating scene {spec.index + 1}/{len(specs)}...", flush=True)
+        scene_paths.append(videogen.make_scene(spec, series, workdir, run_budget, backend))
+
     plan = music.build_composition_plan(song_lyrics, series.music_style)
     song_path = workdir / "song.mp3"
     music.generate_song(plan, song_path)
     meta["composition_plan"] = plan
     meta["song_duration_s"] = round(assemble.probe_duration(song_path), 2)
     print(f"song OK ({meta['song_duration_s']}s)", flush=True)
-
-    specs = storyboard.plan_scenes(topic, song_lyrics, series)
-    meta["scenes"] = [s.to_dict() for s in specs]
-    _write_meta(workdir, meta)
-
-    scene_paths = []
-    for spec in specs:
-        print(f"generating scene {spec.index + 1}/{len(specs)}...", flush=True)
-        scene_paths.append(videogen.make_scene(spec, series, workdir, run_budget, backend))
 
     final_path = workdir / "final_9x16.mp4"
     expected = assemble.assemble_final(scene_paths, song_path, final_path, song_lyrics.title)
